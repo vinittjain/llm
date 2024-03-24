@@ -1,0 +1,29 @@
+# .gitignore
+venv/
+# Ignore Visual Studio Code extensions
+.vscode/
+
+# Ignore .idea directories (created by PyCharm and other IntelliJ IDEs)
+.idea/
+
+# Ignore Python cache files
+__pycache__/
+
+# Remove doxy files
+doc/
+out/
+
+
+# Ignore Python distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+*.agg-info
+
+
+# Dont push data files
+dataset/
+*.csv
+

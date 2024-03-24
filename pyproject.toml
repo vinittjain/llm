@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quants"
+version = "0.1.0"
+description = "A repository of LLMs"
+authors = [
+    { name = "Vinit Jain", email = "vinjain1011@gmail.com" }
+]
+
+requires-python = ">=3.8"
+
+dependencies = [
+    "torch>=2.0",
+    "transformers==4.27.1",
+    "datasets==2.9.0",
+    "accelerate==0.17.1",
+    "evaluate==0.4.0",
+    "tensorboard",
+    "scikit-learn",
+    "schedule",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "pytest"
+]
+
+[tool.black]
+line-length = 99
