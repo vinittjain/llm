@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "quants"
+name = "llm"
 version = "0.1.0"
 description = "A repository of LLMs"
 authors = [
@@ -20,6 +20,7 @@ dependencies = [
     "evaluate==0.4.0",
     "tensorboard",
     "scikit-learn",
+    "loguru==0.7.2",
     "schedule",
 ]
 
